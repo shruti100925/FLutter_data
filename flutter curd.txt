@@ -1,0 +1,16 @@
+Floating button -> add data -> make form-> in childern slist.map(tops)
+trailing wrap for edit delete icons
+list<map> slist= []-- make slist to store and get data in list
+
+add data ->make form -> dbhelper db object ->in initstate db.open()
+->Elevated button -> db.db rawinsert -> insert query->navigator.push to myApp 
+
+
+db.dart file ->make db.dart-> dbhalper class ->make open method
+-> declare var path ->database name -> database bd and give version and 
+in oncreate method-> db.execute-> create table info
+
+
+in main.dart-> call getdata() in initstate -> in list do select query-> setstate
+
+in form-> add icon buttons edit and delete-> edit button navigate to edit data.dart
